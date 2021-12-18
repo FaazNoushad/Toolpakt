@@ -1,0 +1,10 @@
+version="2.0"
+tags={
+	"Map"
+	"Utilities"
+	"Fixes"
+	"Gameplay"
+	"Balance"
+}
+name="Toolpakt"
+supported_version="1.10.8"
