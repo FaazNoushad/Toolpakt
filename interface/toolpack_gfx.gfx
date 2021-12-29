@@ -36,6 +36,11 @@ spriteTypes = {
 		texturefile = "gfx/toolpack_interface/tp_text_bg_short.dds"
 	}
 	SpriteType = { 
+		name = "GFX_marker_unmarker"
+		texturefile = "gfx/toolpack_interface/marker_unmarker.dds"
+		noOfFrames = 2
+	}
+	SpriteType = { 
 		name = "GFX_tp_add_1"
 		texturefile = "gfx/toolpack_interface/tp_add_1.dds"
 	}
@@ -114,6 +119,18 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_tp_sub_1000"
 		texturefile = "gfx/toolpack_interface/tp_sub_1000.dds"
+	}
+	SpriteType = { 
+		name = "GFX_tp_main_text_bg"
+		texturefile = "gfx/toolpack_interface/tp_main_text_bg.dds"
+	}
+	SpriteType = { 
+		name = "GFX_tp_main_text_half_bg"
+		texturefile = "gfx/toolpack_interface/tp_main_text_half_bg.dds"
+	}
+	SpriteType = { 
+		name = "GFX_close_button"
+		texturefile = "gfx/toolpack_interface/tp_close_button.dds"
 	}
 ###########
 ### SMT ###
@@ -298,6 +315,10 @@ spriteTypes = {
 ###########
 ### TPT ###
 ###########
+	SpriteType = { 
+		name = "GFX_state_change_button"
+		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_state_change_button.dds"
+	}
 	SpriteType = { 
 		name = "GFX_idea_tpt_neutrality_banned"
 		texturefile = "gfx/toolpack_interface/tpt_interface/tpt_idea_neutrality_banned.dds"
@@ -588,6 +609,14 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_bst_section_bg"
 		texturefile = "gfx/toolpack_interface/bst_interface/bst_section_bg.dds"
+	}
+	SpriteType = { 
+		name = "GFX_bst_port_small"
+		texturefile = "gfx/toolpack_interface/bst_interface/bst_port.dds"
+	}
+	SpriteType = { 
+		name = "GFX_bst_civf"
+		texturefile = "gfx/toolpack_interface/bst_interface/buildings/bst_port.dds"
 	}
 	SpriteType = { 
 		name = "GFX_bst_civf"

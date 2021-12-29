@@ -1168,10 +1168,10 @@ guiTypes = {
 				buttonType = {
 					name = "bst_limit_base_12"
 					position = { x = 269 y = 368 }
-					quadTextureSprite = "GFX_idea_generic_naval_manufacturer_1"
+					quadTextureSprite = "GFX_bst_port_small"
 					buttonFont = "Bomb_18"
 					clicksound = click_default
-					scale = 0.35
+					scale = 1
 					pdx_tooltip = "BST_LIMIT_BASE_TT"
 				}
 				iconType = {
@@ -1264,10 +1264,10 @@ guiTypes = {
 				buttonType = {
 					name = "bst_limit_base_13"
 					position = { x = 269 y = 401 }
-					quadTextureSprite = "GFX_idea_generic_naval_manufacturer_1"
+					quadTextureSprite = "GFX_bst_port_small"
 					buttonFont = "Bomb_18"
 					clicksound = click_default
-					scale = 0.35
+					scale = 1
 					pdx_tooltip = "BST_LIMIT_BASE_TT"
 				}
 				iconType = {

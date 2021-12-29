@@ -45,7 +45,7 @@ guiTypes = {
 			position = { x = 29 y = 52 }
 			shortcut = "shift+r"
 			frame = 1
-			spriteType = "GFX_cont_focus_check_icon"
+			spriteType = "GFX_marker_unmarker"
 			pdx_tooltip = "CAT_MARKER"
 			scale = 1
 		}
@@ -54,7 +54,7 @@ guiTypes = {
 			position = { x = 29 y = 52 }
 			shortcut = "shift+r"		
 			frame = 2
-			spriteType = "GFX_cont_focus_check_icon"
+			spriteType = "GFX_marker_unmarker"
 			pdx_tooltip = "CAT_UNMARKER"
 			scale = 1
 		}
@@ -62,7 +62,7 @@ guiTypes = {
 			name = "mst_unmark_all"
 			position = { x = 75 y = 53 }
 			shortcut = "shift+ctrl+r"			
-			spriteType = "GFX_close_button_small"
+			spriteType = "GFX_close_button"
 			pdx_tooltip = "CAT_UNMARK_ALL"
 			scale = 1
 		}

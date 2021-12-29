@@ -31,27 +31,27 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "tpt_marker"
-			position = { x = 15 y = 93 }
+			position = { x = 17 y = 93 }
 			shortcut = "shift+r"
 			frame = 1
-			spriteType = "GFX_cont_focus_check_icon"
+			spriteType = "GFX_marker_unmarker"
 			pdx_tooltip = "CAT_MARKER"
 			scale = 1
 		}
 		buttonType = {
 			name = "tpt_unmarker"
-			position = { x = 15 y = 93 }
+			position = { x = 17 y = 93 }
 			shortcut = "shift+r"		
 			frame = 2
-			spriteType = "GFX_cont_focus_check_icon"
+			spriteType = "GFX_marker_unmarker"
 			pdx_tooltip = "CAT_UNMARKER"
 			scale = 1
 		}
 		buttonType = {
 			name = "tpt_mark_ideology"
-			position = { x = 12 y = 129 }
+			position = { x = 17 y = 129 }
 			shortcut = "shift+ctrl+e"			
-			spriteType = "GFX_tpt_mark_ideology_button_0.9"
+			spriteType = "GFX_tpt_mark_ideology_button"
 			pdx_tooltip = "TPT_MARK_IDEOLOGY_TT"
 			scale = 1
 		}
@@ -59,7 +59,7 @@ guiTypes = {
 			name = "tpt_unmark_all"
 			position = { x = 17 y = 165 }
 			shortcut = "shift+ctrl+r"			
-			spriteType = "GFX_close_button_small"
+			spriteType = "GFX_close_button"
 			pdx_tooltip = "CAT_UNMARK_ALL"
 			scale = 1
 		}
@@ -149,6 +149,20 @@ guiTypes = {
 			scale = 1
 			pdx_tooltip = "TPT_TAB_SWITCHER_TT"
 		}
+		buttonType = {
+			name = "tpt_tab_button_frame_1e"
+			position = { x = 441 y = 245 }
+			spriteType = "GFX_tpt_tab_frame_2_short"
+			scale = 1
+			pdx_tooltip = "TPT_TAB_SWITCHER_TT"
+		}
+		buttonType = {
+			name = "tpt_tab_button_frame_2e"
+			position = { x = 441 y = 245 }
+			spriteType = "GFX_tpt_tab_frame_1_short"
+			scale = 1
+			pdx_tooltip = "TPT_TAB_SWITCHER_TT"
+		}
 		instantTextboxType = {
 			name = "tpt_country_tab"
 			position = { x = 246 y = 252 }
@@ -158,20 +172,6 @@ guiTypes = {
 			maxHeight = 1
 			format = center
 			orientation = left
-		}
-		buttonType = {
-			name = "tpt_tab_button_frame_1e"
-			position = { x = 441 y = 251 }
-			spriteType = "GFX_tpt_tab_frame_2_short"
-			scale = 1
-			pdx_tooltip = "TPT_TAB_SWITCHER_TT"
-		}
-		buttonType = {
-			name = "tpt_tab_button_frame_2e"
-			position = { x = 441 y = 251 }
-			spriteType = "GFX_tpt_tab_frame_1_short"
-			scale = 1
-			pdx_tooltip = "TPT_TAB_SWITCHER_TT"
 		}
 		iconType ={
 			name ="tpt_research_tab_icon"
@@ -587,9 +587,9 @@ guiTypes = {
 		buttonType = {
 			name = "tpt_change"
 			position = { x = 88 y = 198 }
-			spriteType = "GFX_goal_generic_territory_or_war"
+			spriteType = "GFX_state_change_button"
 			pdx_tooltip = "TPT_CHANGE"
-			scale = 0.45
+			scale = 1
 		}
 		buttonType = {
 			name = "tpt_enable_elections"

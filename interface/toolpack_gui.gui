@@ -3,14 +3,14 @@ guiTypes = {
 	containerWindowType = {
 
 		name = "toolpack_open_container"
-		position = { x = -21 y = -240 }
+		position = { x = -21 y = -405 }
 		orientation = LOWER_RIGHT
 		origo = lower_right
 
 		buttonType = {
 			name = "toolpack_open"
 			quadTextureSprite = "GFX_toolpack_expand_left"
-			position = { x = 0 y = 40 }
+			position = { x = 0 y = 0 }
 			shortcut = "ctrl+shift+alt+t"
 			pdx_tooltip = "[toolpack_OPENING]"
 			clicksound = click_ok
@@ -33,7 +33,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "toolpack_hide"
-			quadTextureSprite = "GFX_generic_text_bg_203"
+			quadTextureSprite = "GFX_tp_main_text_bg"
 			position = { x = 0 y = 0 }
 			shortcut = "ctrl+shift+h"
 			clicksound = click_ok
@@ -43,11 +43,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "toolpack_main_container"
-		position = { x = 100 y = -69 }
+		position = { x = 100 y = -191 }
 		size = { width = 255 height = 355 }
 		orientation = CENTER_RIGHT
 
-		show_position = { x = -250 y = -69 }
+		show_position = { x = -250 y = -191 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
@@ -129,7 +129,7 @@ guiTypes = {
 ### SMT ###
 		buttonType = {
 			name = "smt_open"
-			quadTextureSprite = "GFX_generic_text_bg_203"
+			quadTextureSprite = "GFX_tp_main_text_bg"
 			position = { x = 25 y = 30 }
 			shortcut = "ctrl+alt+t"
 			pdx_tooltip = "[SMT_TOOLTIP]"
@@ -153,7 +153,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "cat_open"
-			quadTextureSprite = "GFX_generic_text_bg_203"
+			quadTextureSprite = "GFX_tp_main_text_bg"
 			position = { x = 25 y = 70 }
 			shortcut = "ctrl+alt+a"
 			pdx_tooltip = "[CAT_OPENING]"
@@ -177,7 +177,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "cpt_open"
-			quadTextureSprite = "GFX_generic_text_bg_203"
+			quadTextureSprite = "GFX_tp_main_text_bg"
 			position = { x = 25 y = 110 }
 			shortcut = "shift+c"
 			pdx_tooltip = "[CPT_OPENING]"
@@ -201,7 +201,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "tpt_open"
-			quadTextureSprite = "GFX_generic_text_bg_203"
+			quadTextureSprite = "GFX_tp_main_text_bg"
 			position = { x = 25 y = 150 }
 			shortcut = "ctrl+alt+a"
 			pdx_tooltip = "[TPT_OPENING]"
@@ -225,7 +225,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "dst_A_open"
-			quadTextureSprite = "GFX_toolpack_bg_half"
+			quadTextureSprite = "GFX_tp_main_text_half_bg"
 			position = { x = 25 y = 192 }
 			shortcut = "ctrl+alt+a"
 			pdx_tooltip = "[DST_OPENING]"
@@ -244,7 +244,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "dst_B_open"
-			quadTextureSprite = "GFX_toolpack_bg_half"
+			quadTextureSprite = "GFX_tp_main_text_half_bg"
 			position = { x = 129 y = 192 }
 			shortcut = "ctrl+alt+a"
 			pdx_tooltip = "[DST_OPENING]"
@@ -267,7 +267,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "sst_open"
-			quadTextureSprite = "GFX_generic_text_bg_203"
+			quadTextureSprite = "GFX_tp_main_text_bg"
 			position = { x = 25 y = 230 }
 			shortcut = "ctrl+alt+a"
 			pdx_tooltip = "[SST_OPENING]"
@@ -291,7 +291,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "bst_open"
-			quadTextureSprite = "GFX_generic_text_bg_203"
+			quadTextureSprite = "GFX_tp_main_text_bg"
 			position = { x = 25 y = 270 }
 			shortcut = "ctrl+alt+a"
 			pdx_tooltip = "[BST_OPENING]"
@@ -315,7 +315,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "mst_C_open"
-			quadTextureSprite = "GFX_toolpack_bg_half"
+			quadTextureSprite = "GFX_tp_main_text_half_bg"
 			position = { x = 25 y = 32 }
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -332,7 +332,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "mst_S_open"
-			quadTextureSprite = "GFX_toolpack_bg_half"
+			quadTextureSprite = "GFX_tp_main_text_half_bg"
 			position = { x = 129 y = 32 }
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -353,7 +353,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "rmt_open"
-			quadTextureSprite = "GFX_generic_text_bg_203"
+			quadTextureSprite = "GFX_tp_main_text_bg"
 			position = { x = 25 y = 70 }
 			shortcut = "ctrl+alt+a"
 			clicksound = click_ok
