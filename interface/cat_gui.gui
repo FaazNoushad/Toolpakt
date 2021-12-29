@@ -26,12 +26,11 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cat_country_name"
 			position = {x = 14 y = 8 }
-			font = "Bomb_18"
+			font = "aldrich_12_outline"
 			text = "CAT_COUNTRY_NAME"
-			maxWidth = 200
+			maxWidth = 175
 			maxHeight = 23
 			format = left
-			alwaystransparent = yes
 		}
 ######
 		buttonType = {

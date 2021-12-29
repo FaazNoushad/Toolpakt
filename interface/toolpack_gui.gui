@@ -3,14 +3,14 @@ guiTypes = {
 	containerWindowType = {
 
 		name = "toolpack_open_container"
-		position = { x = -21 y = -280 }
+		position = { x = -21 y = -240 }
 		orientation = LOWER_RIGHT
 		origo = lower_right
 
 		buttonType = {
 			name = "toolpack_open"
 			quadTextureSprite = "GFX_toolpack_expand_left"
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 40 }
 			shortcut = "ctrl+shift+alt+t"
 			pdx_tooltip = "[toolpack_OPENING]"
 			clicksound = click_ok
