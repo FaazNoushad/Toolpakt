@@ -42,11 +42,11 @@
  TPT_BAN_AUTHDEM_IDEA_TT:0 "§HAdd a national spirit that removes §!non-aligned influence§H from the nation§!"
  
  TPT_FASCIST:0 "Fascist"
- TPT_COMMUNIST:0 "Communist"
+ TPT_COMMUNIST:0 "Commun"
  TPT_CONDEM:0 "ConDem"
  TPT_AUTHDEM:0 "AuthDem"
  TPT_LIBDEM:0 "LibDem"
- TPT_SOCIALIST:0 "LibSoc"
+ TPT_SOCIALIST:0 "Social"
  TPT_SOCDEM:0 "SocDem"
  TPT_DESPOT:0 "Despot"
  TPT_ULTRANAT:0 "UltraNat"

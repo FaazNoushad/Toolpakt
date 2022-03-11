@@ -136,7 +136,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "bst_grid_window"
 			position = { x = 10 y = 88 }
-			size = { width = 330 height = 135 }
+			size = { width = 330 height = 150 }
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 0 bottom = 5 }
 				
@@ -1277,6 +1277,86 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					alwaystransparent = yes
 					scale = 0.065
+				}
+			}
+
+	#####
+	# 14 #
+	#####
+			containerWindowType = {
+				name = "bst_construction_window_14"
+				position = { x = 7 y = 3 }
+				size = { width = 300 height = 35 }
+					
+				iconType = {
+					name = "bst_background_14"
+					position = { x = 0 y = 429 }
+					quadTextureSprite = "GFX_bst_section_bg"
+				}
+				buttonType = {
+					name = "bst_priority_up_btn_14"
+					position = { x = 0 y = 429 }
+					quadTextureSprite = "GFX_bst_increase_priority"
+					clicksound = click_default
+					scale = 0.7
+					pdx_tooltip = "BST_PRIORITY_UP_TT"
+				}
+				buttonType = {
+					name = "bst_priority_down_btn_14"
+					position = { x = -1 y = 444 }
+					quadTextureSprite = "GFX_bst_decrease_priority"
+					clicksound = click_default
+					scale = 0.7
+					pdx_tooltip = "BST_PRIORITY_DOWN_TT"
+				}
+				iconType = {
+					name = "bst_building_icon_14"
+					position = { x = 17 y = 429 }	
+					spriteType = "GFX_bst_school"
+					pdx_tooltip = "BST_CIV_ICON_TT"
+					scale = 0.7
+				}
+				buttonType = {
+					name = "bst_min_button_14" 
+					position = { x = 52 y = 434 }
+					spriteType = "GFX_bst_min_max_btn2"
+					pdx_tooltip = "BST_MINIMUM_TT"
+					scale = 1
+					buttonText = "min."
+					buttonFont = "Bomb_16"
+				}
+				buttonType = {
+					name = "bst_remove_buildings_14"
+					position = { x = 117 y = 434 }
+					spriteType = "GFX_subtract_one"
+					pdx_tooltip = "BST_REMOVE_TT"
+					scale = 0.9
+				}
+				instantTextboxType = {
+					name = "bst_buildings_amount_14"
+					position = { x = 137 y = 434 }
+					font = "Bomb_18"
+					text = "[BST_CIVF_AMOUNT]"
+					pdx_tooltip = "BST_CIV_AMOUNT_TT"
+					maxWidth = 38
+					maxHeight = 23
+					format = center
+				}
+				buttonType = {
+					name = "bst_add_buildings_14"
+					position = { x = 177 y = 434 }
+					spriteType = "GFX_add_one"
+					pdx_tooltip = "BST_ADD_TT"
+					scale = 0.9
+				}
+				buttonType = {
+					name = "bst_max_button_14" 
+					position = { x = 212 y = 434 }
+					spriteType = "GFX_bst_min_max_btn2"
+					pdx_tooltip = "BST_MAXIMUM_TT"
+					scale = 1
+					buttonText = "max."
+					buttonFont = "Bomb_16"
 				}
 			}
 		}

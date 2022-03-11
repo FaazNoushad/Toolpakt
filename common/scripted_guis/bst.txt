@@ -394,6 +394,33 @@ scripted_gui = {
 			bst_glow_13 = {
 				y = var:global.bst_position_13
 			}
+			bst_background_14 = {
+				y = var:global.bst_position_14
+			}
+			bst_priority_up_btn_14 = {
+				y = var:global.bst_position_14
+			}
+			bst_building_icon_14 = {
+				y = var:global.bst_position_14
+			}
+			bst_priority_down_btn_14 = {
+				y = var:global.bst_position_14_2
+			}
+			bst_min_button_14 = {
+				y = var:global.bst_position_14_3
+			}
+			bst_remove_buildings_14 = {
+				y = var:global.bst_position_14_3
+			}
+			bst_buildings_amount_14 = {
+				y = var:global.bst_position_14_3
+			}
+			bst_add_buildings_14 = {
+				y = var:global.bst_position_14_3
+			}
+			bst_max_button_14 = {
+				y = var:global.bst_position_14_3
+			}
 		}
 		effects = {
 			bst_mark_button_click = {
@@ -529,6 +556,12 @@ scripted_gui = {
 			}
 			bst_priority_down_btn_13_click = {
 				bst_move_down_section_position_13 = yes
+			}
+			bst_priority_up_btn_14_click = {
+				bst_move_up_section_position_14 = yes
+			}
+			bst_priority_down_btn_14_click = {
+				bst_move_down_section_position_14 = yes
 			}
 			bst_min_button_1_click = {
 				if = {
@@ -2546,6 +2579,118 @@ scripted_gui = {
 					}
 				}
 			}
+			bst_min_button_14_click = {
+				if = {
+					limit = {
+						all_state = {
+							NOT = { has_state_flag = bst_marked }
+						}
+					}
+					set_building_level = {
+						type = industrial_complex
+						level = 0
+						instant_build = yes
+					}
+				}
+				if = {
+					limit = {
+						any_state = { has_state_flag = bst_marked }
+					}
+					every_state = {
+						limit = { has_state_flag = bst_marked }
+						set_building_level = {
+							type = industrial_complex
+							level = 0
+							instant_build = yes
+						}
+						clr_state_flag = bst_marked
+					}
+				}
+				bst_count_buildings = yes
+			}
+			bst_remove_buildings_14_click = {
+				if = {
+					limit = {
+						all_state = {
+							NOT = { has_state_flag = bst_marked }
+						}
+					}
+					remove_building = {
+    					type = industrial_complex
+    					level = 1
+					}
+				}
+				if = {
+					limit = {
+						any_state = { has_state_flag = bst_marked }
+					}
+					every_state = {
+						limit = { has_state_flag = bst_marked }
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+					}
+				}
+				bst_count_buildings = yes
+			}
+			bst_add_buildings_14_click = {
+				if = {
+					limit = {
+						all_state = {
+							NOT = { has_state_flag = bst_marked }
+						}
+					}
+					add_building_construction = {
+    					type = industrial_complex
+    					level = 1
+    					instant_build = yes
+					}
+				}
+				if = {
+					limit = {
+						any_state = { has_state_flag = bst_marked }
+					}
+					every_state = {
+						limit = { has_state_flag = bst_marked }
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				bst_count_buildings = yes
+			}
+			bst_max_button_14_click = {
+				if = {
+					limit = {
+						all_state = {
+							NOT = { has_state_flag = bst_marked }
+						}
+					}
+					set_building_level = {
+						type = industrial_complex
+						level = 1000
+						instant_build = yes
+					}
+				}
+				if = {
+					limit = {
+						any_state = { has_state_flag = bst_marked }
+					}
+					every_state = {
+						limit = { has_state_flag = bst_marked }
+						set_building_level = {
+							type = industrial_complex
+							level = 1000
+							instant_build = yes
+						}
+						clr_state_flag = bst_marked
+					}
+				}
+				bst_count_buildings = yes
+			}
 		}
 		
 		triggers = {
@@ -3422,6 +3567,82 @@ scripted_gui = {
 			bst_glow_13_visible = {
 				has_global_flag = bst_limit_to_base_13
 			}
+			bst_min_button_14_click_enabled = {
+				OR = {
+					AND = {
+						all_state = {
+							NOT = { has_state_flag = bst_marked }
+						}
+						industrial_complex > 0
+					}
+					any_state = {
+						has_state_flag = bst_marked
+						industrial_complex > 0
+					}
+					has_global_flag = bst_suspend_limits
+				}
+			}
+			bst_remove_buildings_14_click_enabled = {
+				OR = {
+					AND = {
+						all_state = {
+							NOT = { has_state_flag = bst_marked }
+						}
+						industrial_complex > 0
+					}
+					any_state = {
+						has_state_flag = bst_marked
+						industrial_complex > 0
+					}
+					has_global_flag = bst_suspend_limits
+				}
+			}
+			bst_add_buildings_14_click_enabled = {
+				OR = {
+					AND = {
+						all_state = {
+							NOT = { has_state_flag = bst_marked }
+						}
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					any_state = {
+						has_state_flag = bst_marked
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					has_global_flag = bst_suspend_limits
+				}
+			}
+			bst_max_button_14_click_enabled = {
+				OR = {
+					AND = {
+						all_state = {
+							NOT = { has_state_flag = bst_marked }
+						}
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					any_state = {
+						has_state_flag = bst_marked
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					has_global_flag = bst_suspend_limits
+				}
+			}
 			bst_priority_up_btn_1_click_enabled = {
 				NOT = {
 					check_variable = {
@@ -3513,6 +3734,13 @@ scripted_gui = {
 					}
 				}
 			}
+			bst_priority_up_btn_14_click_enabled = {
+				NOT = {
+					check_variable = {
+						global.bst_position_14 = 0
+					}
+				}
+			}
 			bst_priority_down_btn_1_click_enabled = {
 				NOT = {
 					check_variable = {
@@ -3601,6 +3829,13 @@ scripted_gui = {
 				NOT = {
 					check_variable = {
 						global.bst_position_13 = 396
+					}
+				}
+			}
+			bst_priority_down_btn_14_click_enabled = {
+				NOT = {
+					check_variable = {
+						global.bst_position_14 = 396
 					}
 				}
 			}

@@ -1,10 +1,14 @@
 version="2.0"
 tags={
-	"Map"
 	"Utilities"
+	"Map"
 	"Fixes"
 	"Gameplay"
 	"Balance"
 }
-name="Toolpakt"
+dependencies={
+	"The New Order: Last Days of Europe"
+}
+name="Toolpakt: Toolpack for TNO"
 supported_version="1.10.8"
+remote_file_id="2700327893"
