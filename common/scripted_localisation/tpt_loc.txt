@@ -1501,706 +1501,706 @@ defined_text = {
 
 	text = {
 		trigger = {
-			conservative_democracy < 0.01
+			conservatism < 0.01
 		}
 		localization_key = TPT_POP_0
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.008
-			conservative_democracy < 0.019
+			conservatism > 0.008
+			conservatism < 0.019
 		}
 		localization_key = TPT_POP_1
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.018
-			conservative_democracy < 0.029
+			conservatism > 0.018
+			conservatism < 0.029
 		}
 		localization_key = TPT_POP_2
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.028
-			conservative_democracy < 0.039
+			conservatism > 0.028
+			conservatism < 0.039
 		}
 		localization_key = TPT_POP_3
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.038
-			conservative_democracy < 0.049
+			conservatism > 0.038
+			conservatism < 0.049
 		}
 		localization_key = TPT_POP_4
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.048
-			conservative_democracy < 0.059
+			conservatism > 0.048
+			conservatism < 0.059
 		}
 		localization_key = TPT_POP_5
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.058
-			conservative_democracy < 0.069
+			conservatism > 0.058
+			conservatism < 0.069
 		}
 		localization_key = TPT_POP_6
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.068
-			conservative_democracy < 0.079
+			conservatism > 0.068
+			conservatism < 0.079
 		}
 		localization_key = TPT_POP_7
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.078
-			conservative_democracy < 0.089
+			conservatism > 0.078
+			conservatism < 0.089
 		}
 		localization_key = TPT_POP_8
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.088
-			conservative_democracy < 0.099
+			conservatism > 0.088
+			conservatism < 0.099
 		}
 		localization_key = TPT_POP_9
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.098
-			conservative_democracy < 0.109
+			conservatism > 0.098
+			conservatism < 0.109
 		}
 		localization_key = TPT_POP_10
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.108
-			conservative_democracy < 0.119
+			conservatism > 0.108
+			conservatism < 0.119
 		}
 		localization_key = TPT_POP_11
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.118
-			conservative_democracy < 0.129
+			conservatism > 0.118
+			conservatism < 0.129
 		}
 		localization_key = TPT_POP_12
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.128
-			conservative_democracy < 0.139
+			conservatism > 0.128
+			conservatism < 0.139
 		}
 		localization_key = TPT_POP_13
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.138
-			conservative_democracy < 0.149
+			conservatism > 0.138
+			conservatism < 0.149
 		}
 		localization_key = TPT_POP_14
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.148
-			conservative_democracy < 0.159
+			conservatism > 0.148
+			conservatism < 0.159
 		}
 		localization_key = TPT_POP_15
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.158
-			conservative_democracy < 0.169
+			conservatism > 0.158
+			conservatism < 0.169
 		}
 		localization_key = TPT_POP_16
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.168
-			conservative_democracy < 0.179
+			conservatism > 0.168
+			conservatism < 0.179
 		}
 		localization_key = TPT_POP_17
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.178
-			conservative_democracy < 0.189
+			conservatism > 0.178
+			conservatism < 0.189
 		}
 		localization_key = TPT_POP_18
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.188
-			conservative_democracy < 0.199
+			conservatism > 0.188
+			conservatism < 0.199
 		}
 		localization_key = TPT_POP_19
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.198
-			conservative_democracy < 0.209
+			conservatism > 0.198
+			conservatism < 0.209
 		}
 		localization_key = TPT_POP_20
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.208
-			conservative_democracy < 0.219
+			conservatism > 0.208
+			conservatism < 0.219
 		}
 		localization_key = TPT_POP_21
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.218
-			conservative_democracy < 0.229
+			conservatism > 0.218
+			conservatism < 0.229
 		}
 		localization_key = TPT_POP_22
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.228
-			conservative_democracy < 0.239
+			conservatism > 0.228
+			conservatism < 0.239
 		}
 		localization_key = TPT_POP_23
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.238
-			conservative_democracy < 0.249
+			conservatism > 0.238
+			conservatism < 0.249
 		}
 		localization_key = TPT_POP_24
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.248
-			conservative_democracy < 0.259
+			conservatism > 0.248
+			conservatism < 0.259
 		}
 		localization_key = TPT_POP_25
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.258
-			conservative_democracy < 0.269
+			conservatism > 0.258
+			conservatism < 0.269
 		}
 		localization_key = TPT_POP_26
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.268
-			conservative_democracy < 0.279
+			conservatism > 0.268
+			conservatism < 0.279
 		}
 		localization_key = TPT_POP_27
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.278
-			conservative_democracy < 0.289
+			conservatism > 0.278
+			conservatism < 0.289
 		}
 		localization_key = TPT_POP_28
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.288
-			conservative_democracy < 0.299
+			conservatism > 0.288
+			conservatism < 0.299
 		}
 		localization_key = TPT_POP_29
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.298
-			conservative_democracy < 0.309
+			conservatism > 0.298
+			conservatism < 0.309
 		}
 		localization_key = TPT_POP_30
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.308
-			conservative_democracy < 0.319
+			conservatism > 0.308
+			conservatism < 0.319
 		}
 		localization_key = TPT_POP_31
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.318
-			conservative_democracy < 0.329
+			conservatism > 0.318
+			conservatism < 0.329
 		}
 		localization_key = TPT_POP_32
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.328
-			conservative_democracy < 0.339
+			conservatism > 0.328
+			conservatism < 0.339
 		}
 		localization_key = TPT_POP_33
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.338
-			conservative_democracy < 0.349
+			conservatism > 0.338
+			conservatism < 0.349
 		}
 		localization_key = TPT_POP_34
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.348
-			conservative_democracy < 0.359
+			conservatism > 0.348
+			conservatism < 0.359
 		}
 		localization_key = TPT_POP_35
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.358
-			conservative_democracy < 0.369
+			conservatism > 0.358
+			conservatism < 0.369
 		}
 		localization_key = TPT_POP_36
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.368
-			conservative_democracy < 0.379
+			conservatism > 0.368
+			conservatism < 0.379
 		}
 		localization_key = TPT_POP_37
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.378
-			conservative_democracy < 0.389
+			conservatism > 0.378
+			conservatism < 0.389
 		}
 		localization_key = TPT_POP_38
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.388
-			conservative_democracy < 0.399
+			conservatism > 0.388
+			conservatism < 0.399
 		}
 		localization_key = TPT_POP_39
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.398
-			conservative_democracy < 0.409
+			conservatism > 0.398
+			conservatism < 0.409
 		}
 		localization_key = TPT_POP_40
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.408
-			conservative_democracy < 0.419
+			conservatism > 0.408
+			conservatism < 0.419
 		}
 		localization_key = TPT_POP_41
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.418
-			conservative_democracy < 0.429
+			conservatism > 0.418
+			conservatism < 0.429
 		}
 		localization_key = TPT_POP_42
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.428
-			conservative_democracy < 0.439
+			conservatism > 0.428
+			conservatism < 0.439
 		}
 		localization_key = TPT_POP_43
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.438
-			conservative_democracy < 0.449
+			conservatism > 0.438
+			conservatism < 0.449
 		}
 		localization_key = TPT_POP_44
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.448
-			conservative_democracy < 0.459
+			conservatism > 0.448
+			conservatism < 0.459
 		}
 		localization_key = TPT_POP_45
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.458
-			conservative_democracy < 0.469
+			conservatism > 0.458
+			conservatism < 0.469
 		}
 		localization_key = TPT_POP_46
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.468
-			conservative_democracy < 0.479
+			conservatism > 0.468
+			conservatism < 0.479
 		}
 		localization_key = TPT_POP_47
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.478
-			conservative_democracy < 0.489
+			conservatism > 0.478
+			conservatism < 0.489
 		}
 		localization_key = TPT_POP_48
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.488
-			conservative_democracy < 0.499
+			conservatism > 0.488
+			conservatism < 0.499
 		}
 		localization_key = TPT_POP_49
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.498
-			conservative_democracy < 0.509
+			conservatism > 0.498
+			conservatism < 0.509
 		}
 		localization_key = TPT_POP_50
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.508
-			conservative_democracy < 0.519
+			conservatism > 0.508
+			conservatism < 0.519
 		}
 		localization_key = TPT_POP_51
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.518
-			conservative_democracy < 0.529
+			conservatism > 0.518
+			conservatism < 0.529
 		}
 		localization_key = TPT_POP_52
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.528
-			conservative_democracy < 0.539
+			conservatism > 0.528
+			conservatism < 0.539
 		}
 		localization_key = TPT_POP_53
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.538
-			conservative_democracy < 0.549
+			conservatism > 0.538
+			conservatism < 0.549
 		}
 		localization_key = TPT_POP_54
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.548
-			conservative_democracy < 0.559
+			conservatism > 0.548
+			conservatism < 0.559
 		}
 		localization_key = TPT_POP_55
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.558
-			conservative_democracy < 0.569
+			conservatism > 0.558
+			conservatism < 0.569
 		}
 		localization_key = TPT_POP_56
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.568
-			conservative_democracy < 0.579
+			conservatism > 0.568
+			conservatism < 0.579
 		}
 		localization_key = TPT_POP_57
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.578
-			conservative_democracy < 0.589
+			conservatism > 0.578
+			conservatism < 0.589
 		}
 		localization_key = TPT_POP_58
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.588
-			conservative_democracy < 0.599
+			conservatism > 0.588
+			conservatism < 0.599
 		}
 		localization_key = TPT_POP_59
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.598
-			conservative_democracy < 0.609
+			conservatism > 0.598
+			conservatism < 0.609
 		}
 		localization_key = TPT_POP_60
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.608
-			conservative_democracy < 0.619
+			conservatism > 0.608
+			conservatism < 0.619
 		}
 		localization_key = TPT_POP_61
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.618
-			conservative_democracy < 0.629
+			conservatism > 0.618
+			conservatism < 0.629
 		}
 		localization_key = TPT_POP_62
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.628
-			conservative_democracy < 0.639
+			conservatism > 0.628
+			conservatism < 0.639
 		}
 		localization_key = TPT_POP_63
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.638
-			conservative_democracy < 0.649
+			conservatism > 0.638
+			conservatism < 0.649
 		}
 		localization_key = TPT_POP_64
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.648
-			conservative_democracy < 0.659
+			conservatism > 0.648
+			conservatism < 0.659
 		}
 		localization_key = TPT_POP_65
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.658
-			conservative_democracy < 0.669
+			conservatism > 0.658
+			conservatism < 0.669
 		}
 		localization_key = TPT_POP_66
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.668
-			conservative_democracy < 0.679
+			conservatism > 0.668
+			conservatism < 0.679
 		}
 		localization_key = TPT_POP_67
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.678
-			conservative_democracy < 0.689
+			conservatism > 0.678
+			conservatism < 0.689
 		}
 		localization_key = TPT_POP_68
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.688
-			conservative_democracy < 0.699
+			conservatism > 0.688
+			conservatism < 0.699
 		}
 		localization_key = TPT_POP_69
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.698
-			conservative_democracy < 0.709
+			conservatism > 0.698
+			conservatism < 0.709
 		}
 		localization_key = TPT_POP_70
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.708
-			conservative_democracy < 0.719
+			conservatism > 0.708
+			conservatism < 0.719
 		}
 		localization_key = TPT_POP_71
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.718
-			conservative_democracy < 0.729
+			conservatism > 0.718
+			conservatism < 0.729
 		}
 		localization_key = TPT_POP_72
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.728
-			conservative_democracy < 0.739
+			conservatism > 0.728
+			conservatism < 0.739
 		}
 		localization_key = TPT_POP_73
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.738
-			conservative_democracy < 0.749
+			conservatism > 0.738
+			conservatism < 0.749
 		}
 		localization_key = TPT_POP_74
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.748
-			conservative_democracy < 0.759
+			conservatism > 0.748
+			conservatism < 0.759
 		}
 		localization_key = TPT_POP_75
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.758
-			conservative_democracy < 0.769
+			conservatism > 0.758
+			conservatism < 0.769
 		}
 		localization_key = TPT_POP_76
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.768
-			conservative_democracy < 0.779
+			conservatism > 0.768
+			conservatism < 0.779
 		}
 		localization_key = TPT_POP_77
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.778
-			conservative_democracy < 0.789
+			conservatism > 0.778
+			conservatism < 0.789
 		}
 		localization_key = TPT_POP_78
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.788
-			conservative_democracy < 0.799
+			conservatism > 0.788
+			conservatism < 0.799
 		}
 		localization_key = TPT_POP_79
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.798
-			conservative_democracy < 0.809
+			conservatism > 0.798
+			conservatism < 0.809
 		}
 		localization_key = TPT_POP_80
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.808
-			conservative_democracy < 0.819
+			conservatism > 0.808
+			conservatism < 0.819
 		}
 		localization_key = TPT_POP_81
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.818
-			conservative_democracy < 0.829
+			conservatism > 0.818
+			conservatism < 0.829
 		}
 		localization_key = TPT_POP_82
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.828
-			conservative_democracy < 0.839
+			conservatism > 0.828
+			conservatism < 0.839
 		}
 		localization_key = TPT_POP_83
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.838
-			conservative_democracy < 0.849
+			conservatism > 0.838
+			conservatism < 0.849
 		}
 		localization_key = TPT_POP_84
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.848
-			conservative_democracy < 0.859
+			conservatism > 0.848
+			conservatism < 0.859
 		}
 		localization_key = TPT_POP_85
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.858
-			conservative_democracy < 0.869
+			conservatism > 0.858
+			conservatism < 0.869
 		}
 		localization_key = TPT_POP_86
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.868
-			conservative_democracy < 0.879
+			conservatism > 0.868
+			conservatism < 0.879
 		}
 		localization_key = TPT_POP_87
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.878
-			conservative_democracy < 0.889
+			conservatism > 0.878
+			conservatism < 0.889
 		}
 		localization_key = TPT_POP_88
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.888
-			conservative_democracy < 0.899
+			conservatism > 0.888
+			conservatism < 0.899
 		}
 		localization_key = TPT_POP_89
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.898
-			conservative_democracy < 0.909
+			conservatism > 0.898
+			conservatism < 0.909
 		}
 		localization_key = TPT_POP_90
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.908
-			conservative_democracy < 0.919
+			conservatism > 0.908
+			conservatism < 0.919
 		}
 		localization_key = TPT_POP_91
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.918
-			conservative_democracy < 0.929
+			conservatism > 0.918
+			conservatism < 0.929
 		}
 		localization_key = TPT_POP_92
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.928
-			conservative_democracy < 0.939
+			conservatism > 0.928
+			conservatism < 0.939
 		}
 		localization_key = TPT_POP_93
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.938
-			conservative_democracy < 0.949
+			conservatism > 0.938
+			conservatism < 0.949
 		}
 		localization_key = TPT_POP_94
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.948
-			conservative_democracy < 0.959
+			conservatism > 0.948
+			conservatism < 0.959
 		}
 		localization_key = TPT_POP_95
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.958
-			conservative_democracy < 0.969
+			conservatism > 0.958
+			conservatism < 0.969
 		}
 		localization_key = TPT_POP_96
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.968
-			conservative_democracy < 0.979
+			conservatism > 0.968
+			conservatism < 0.979
 		}
 		localization_key = TPT_POP_97
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.978
-			conservative_democracy < 0.989
+			conservatism > 0.978
+			conservatism < 0.989
 		}
 		localization_key = TPT_POP_88
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.988
-			conservative_democracy < 0.999
+			conservatism > 0.988
+			conservatism < 0.999
 		}
 		localization_key = TPT_POP_99
 	}
 	text = {
 		trigger = {
-			conservative_democracy > 0.998
+			conservatism > 0.998
 		}
 		localization_key = TPT_POP_100
 	}
@@ -2220,706 +2220,706 @@ defined_text = {
 
 	text = {
 		trigger = {
-			authoritarian_democracy < 0.01
+			paternalism < 0.01
 		}
 		localization_key = TPT_POP_0
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.008
-			authoritarian_democracy < 0.019
+			paternalism > 0.008
+			paternalism < 0.019
 		}
 		localization_key = TPT_POP_1
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.018
-			authoritarian_democracy < 0.029
+			paternalism > 0.018
+			paternalism < 0.029
 		}
 		localization_key = TPT_POP_2
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.028
-			authoritarian_democracy < 0.039
+			paternalism > 0.028
+			paternalism < 0.039
 		}
 		localization_key = TPT_POP_3
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.038
-			authoritarian_democracy < 0.049
+			paternalism > 0.038
+			paternalism < 0.049
 		}
 		localization_key = TPT_POP_4
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.048
-			authoritarian_democracy < 0.059
+			paternalism > 0.048
+			paternalism < 0.059
 		}
 		localization_key = TPT_POP_5
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.058
-			authoritarian_democracy < 0.069
+			paternalism > 0.058
+			paternalism < 0.069
 		}
 		localization_key = TPT_POP_6
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.068
-			authoritarian_democracy < 0.079
+			paternalism > 0.068
+			paternalism < 0.079
 		}
 		localization_key = TPT_POP_7
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.078
-			authoritarian_democracy < 0.089
+			paternalism > 0.078
+			paternalism < 0.089
 		}
 		localization_key = TPT_POP_8
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.088
-			authoritarian_democracy < 0.099
+			paternalism > 0.088
+			paternalism < 0.099
 		}
 		localization_key = TPT_POP_9
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.098
-			authoritarian_democracy < 0.109
+			paternalism > 0.098
+			paternalism < 0.109
 		}
 		localization_key = TPT_POP_10
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.108
-			authoritarian_democracy < 0.119
+			paternalism > 0.108
+			paternalism < 0.119
 		}
 		localization_key = TPT_POP_11
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.118
-			authoritarian_democracy < 0.129
+			paternalism > 0.118
+			paternalism < 0.129
 		}
 		localization_key = TPT_POP_12
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.128
-			authoritarian_democracy < 0.139
+			paternalism > 0.128
+			paternalism < 0.139
 		}
 		localization_key = TPT_POP_13
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.138
-			authoritarian_democracy < 0.149
+			paternalism > 0.138
+			paternalism < 0.149
 		}
 		localization_key = TPT_POP_14
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.148
-			authoritarian_democracy < 0.159
+			paternalism > 0.148
+			paternalism < 0.159
 		}
 		localization_key = TPT_POP_15
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.158
-			authoritarian_democracy < 0.169
+			paternalism > 0.158
+			paternalism < 0.169
 		}
 		localization_key = TPT_POP_16
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.168
-			authoritarian_democracy < 0.179
+			paternalism > 0.168
+			paternalism < 0.179
 		}
 		localization_key = TPT_POP_17
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.178
-			authoritarian_democracy < 0.189
+			paternalism > 0.178
+			paternalism < 0.189
 		}
 		localization_key = TPT_POP_18
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.188
-			authoritarian_democracy < 0.199
+			paternalism > 0.188
+			paternalism < 0.199
 		}
 		localization_key = TPT_POP_19
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.198
-			authoritarian_democracy < 0.209
+			paternalism > 0.198
+			paternalism < 0.209
 		}
 		localization_key = TPT_POP_20
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.208
-			authoritarian_democracy < 0.219
+			paternalism > 0.208
+			paternalism < 0.219
 		}
 		localization_key = TPT_POP_21
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.218
-			authoritarian_democracy < 0.229
+			paternalism > 0.218
+			paternalism < 0.229
 		}
 		localization_key = TPT_POP_22
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.228
-			authoritarian_democracy < 0.239
+			paternalism > 0.228
+			paternalism < 0.239
 		}
 		localization_key = TPT_POP_23
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.238
-			authoritarian_democracy < 0.249
+			paternalism > 0.238
+			paternalism < 0.249
 		}
 		localization_key = TPT_POP_24
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.248
-			authoritarian_democracy < 0.259
+			paternalism > 0.248
+			paternalism < 0.259
 		}
 		localization_key = TPT_POP_25
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.258
-			authoritarian_democracy < 0.269
+			paternalism > 0.258
+			paternalism < 0.269
 		}
 		localization_key = TPT_POP_26
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.268
-			authoritarian_democracy < 0.279
+			paternalism > 0.268
+			paternalism < 0.279
 		}
 		localization_key = TPT_POP_27
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.278
-			authoritarian_democracy < 0.289
+			paternalism > 0.278
+			paternalism < 0.289
 		}
 		localization_key = TPT_POP_28
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.288
-			authoritarian_democracy < 0.299
+			paternalism > 0.288
+			paternalism < 0.299
 		}
 		localization_key = TPT_POP_29
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.298
-			authoritarian_democracy < 0.309
+			paternalism > 0.298
+			paternalism < 0.309
 		}
 		localization_key = TPT_POP_30
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.308
-			authoritarian_democracy < 0.319
+			paternalism > 0.308
+			paternalism < 0.319
 		}
 		localization_key = TPT_POP_31
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.318
-			authoritarian_democracy < 0.329
+			paternalism > 0.318
+			paternalism < 0.329
 		}
 		localization_key = TPT_POP_32
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.328
-			authoritarian_democracy < 0.339
+			paternalism > 0.328
+			paternalism < 0.339
 		}
 		localization_key = TPT_POP_33
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.338
-			authoritarian_democracy < 0.349
+			paternalism > 0.338
+			paternalism < 0.349
 		}
 		localization_key = TPT_POP_34
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.348
-			authoritarian_democracy < 0.359
+			paternalism > 0.348
+			paternalism < 0.359
 		}
 		localization_key = TPT_POP_35
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.358
-			authoritarian_democracy < 0.369
+			paternalism > 0.358
+			paternalism < 0.369
 		}
 		localization_key = TPT_POP_36
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.368
-			authoritarian_democracy < 0.379
+			paternalism > 0.368
+			paternalism < 0.379
 		}
 		localization_key = TPT_POP_37
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.378
-			authoritarian_democracy < 0.389
+			paternalism > 0.378
+			paternalism < 0.389
 		}
 		localization_key = TPT_POP_38
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.388
-			authoritarian_democracy < 0.399
+			paternalism > 0.388
+			paternalism < 0.399
 		}
 		localization_key = TPT_POP_39
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.398
-			authoritarian_democracy < 0.409
+			paternalism > 0.398
+			paternalism < 0.409
 		}
 		localization_key = TPT_POP_40
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.408
-			authoritarian_democracy < 0.419
+			paternalism > 0.408
+			paternalism < 0.419
 		}
 		localization_key = TPT_POP_41
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.418
-			authoritarian_democracy < 0.429
+			paternalism > 0.418
+			paternalism < 0.429
 		}
 		localization_key = TPT_POP_42
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.428
-			authoritarian_democracy < 0.439
+			paternalism > 0.428
+			paternalism < 0.439
 		}
 		localization_key = TPT_POP_43
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.438
-			authoritarian_democracy < 0.449
+			paternalism > 0.438
+			paternalism < 0.449
 		}
 		localization_key = TPT_POP_44
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.448
-			authoritarian_democracy < 0.459
+			paternalism > 0.448
+			paternalism < 0.459
 		}
 		localization_key = TPT_POP_45
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.458
-			authoritarian_democracy < 0.469
+			paternalism > 0.458
+			paternalism < 0.469
 		}
 		localization_key = TPT_POP_46
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.468
-			authoritarian_democracy < 0.479
+			paternalism > 0.468
+			paternalism < 0.479
 		}
 		localization_key = TPT_POP_47
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.478
-			authoritarian_democracy < 0.489
+			paternalism > 0.478
+			paternalism < 0.489
 		}
 		localization_key = TPT_POP_48
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.488
-			authoritarian_democracy < 0.499
+			paternalism > 0.488
+			paternalism < 0.499
 		}
 		localization_key = TPT_POP_49
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.498
-			authoritarian_democracy < 0.509
+			paternalism > 0.498
+			paternalism < 0.509
 		}
 		localization_key = TPT_POP_50
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.508
-			authoritarian_democracy < 0.519
+			paternalism > 0.508
+			paternalism < 0.519
 		}
 		localization_key = TPT_POP_51
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.518
-			authoritarian_democracy < 0.529
+			paternalism > 0.518
+			paternalism < 0.529
 		}
 		localization_key = TPT_POP_52
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.528
-			authoritarian_democracy < 0.539
+			paternalism > 0.528
+			paternalism < 0.539
 		}
 		localization_key = TPT_POP_53
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.538
-			authoritarian_democracy < 0.549
+			paternalism > 0.538
+			paternalism < 0.549
 		}
 		localization_key = TPT_POP_54
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.548
-			authoritarian_democracy < 0.559
+			paternalism > 0.548
+			paternalism < 0.559
 		}
 		localization_key = TPT_POP_55
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.558
-			authoritarian_democracy < 0.569
+			paternalism > 0.558
+			paternalism < 0.569
 		}
 		localization_key = TPT_POP_56
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.568
-			authoritarian_democracy < 0.579
+			paternalism > 0.568
+			paternalism < 0.579
 		}
 		localization_key = TPT_POP_57
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.578
-			authoritarian_democracy < 0.589
+			paternalism > 0.578
+			paternalism < 0.589
 		}
 		localization_key = TPT_POP_58
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.588
-			authoritarian_democracy < 0.599
+			paternalism > 0.588
+			paternalism < 0.599
 		}
 		localization_key = TPT_POP_59
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.598
-			authoritarian_democracy < 0.609
+			paternalism > 0.598
+			paternalism < 0.609
 		}
 		localization_key = TPT_POP_60
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.608
-			authoritarian_democracy < 0.619
+			paternalism > 0.608
+			paternalism < 0.619
 		}
 		localization_key = TPT_POP_61
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.618
-			authoritarian_democracy < 0.629
+			paternalism > 0.618
+			paternalism < 0.629
 		}
 		localization_key = TPT_POP_62
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.628
-			authoritarian_democracy < 0.639
+			paternalism > 0.628
+			paternalism < 0.639
 		}
 		localization_key = TPT_POP_63
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.638
-			authoritarian_democracy < 0.649
+			paternalism > 0.638
+			paternalism < 0.649
 		}
 		localization_key = TPT_POP_64
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.648
-			authoritarian_democracy < 0.659
+			paternalism > 0.648
+			paternalism < 0.659
 		}
 		localization_key = TPT_POP_65
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.658
-			authoritarian_democracy < 0.669
+			paternalism > 0.658
+			paternalism < 0.669
 		}
 		localization_key = TPT_POP_66
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.668
-			authoritarian_democracy < 0.679
+			paternalism > 0.668
+			paternalism < 0.679
 		}
 		localization_key = TPT_POP_67
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.678
-			authoritarian_democracy < 0.689
+			paternalism > 0.678
+			paternalism < 0.689
 		}
 		localization_key = TPT_POP_68
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.688
-			authoritarian_democracy < 0.699
+			paternalism > 0.688
+			paternalism < 0.699
 		}
 		localization_key = TPT_POP_69
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.698
-			authoritarian_democracy < 0.709
+			paternalism > 0.698
+			paternalism < 0.709
 		}
 		localization_key = TPT_POP_70
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.708
-			authoritarian_democracy < 0.719
+			paternalism > 0.708
+			paternalism < 0.719
 		}
 		localization_key = TPT_POP_71
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.718
-			authoritarian_democracy < 0.729
+			paternalism > 0.718
+			paternalism < 0.729
 		}
 		localization_key = TPT_POP_72
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.728
-			authoritarian_democracy < 0.739
+			paternalism > 0.728
+			paternalism < 0.739
 		}
 		localization_key = TPT_POP_73
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.738
-			authoritarian_democracy < 0.749
+			paternalism > 0.738
+			paternalism < 0.749
 		}
 		localization_key = TPT_POP_74
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.748
-			authoritarian_democracy < 0.759
+			paternalism > 0.748
+			paternalism < 0.759
 		}
 		localization_key = TPT_POP_75
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.758
-			authoritarian_democracy < 0.769
+			paternalism > 0.758
+			paternalism < 0.769
 		}
 		localization_key = TPT_POP_76
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.768
-			authoritarian_democracy < 0.779
+			paternalism > 0.768
+			paternalism < 0.779
 		}
 		localization_key = TPT_POP_77
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.778
-			authoritarian_democracy < 0.789
+			paternalism > 0.778
+			paternalism < 0.789
 		}
 		localization_key = TPT_POP_78
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.788
-			authoritarian_democracy < 0.799
+			paternalism > 0.788
+			paternalism < 0.799
 		}
 		localization_key = TPT_POP_79
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.798
-			authoritarian_democracy < 0.809
+			paternalism > 0.798
+			paternalism < 0.809
 		}
 		localization_key = TPT_POP_80
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.808
-			authoritarian_democracy < 0.819
+			paternalism > 0.808
+			paternalism < 0.819
 		}
 		localization_key = TPT_POP_81
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.818
-			authoritarian_democracy < 0.829
+			paternalism > 0.818
+			paternalism < 0.829
 		}
 		localization_key = TPT_POP_82
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.828
-			authoritarian_democracy < 0.839
+			paternalism > 0.828
+			paternalism < 0.839
 		}
 		localization_key = TPT_POP_83
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.838
-			authoritarian_democracy < 0.849
+			paternalism > 0.838
+			paternalism < 0.849
 		}
 		localization_key = TPT_POP_84
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.848
-			authoritarian_democracy < 0.859
+			paternalism > 0.848
+			paternalism < 0.859
 		}
 		localization_key = TPT_POP_85
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.858
-			authoritarian_democracy < 0.869
+			paternalism > 0.858
+			paternalism < 0.869
 		}
 		localization_key = TPT_POP_86
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.868
-			authoritarian_democracy < 0.879
+			paternalism > 0.868
+			paternalism < 0.879
 		}
 		localization_key = TPT_POP_87
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.878
-			authoritarian_democracy < 0.889
+			paternalism > 0.878
+			paternalism < 0.889
 		}
 		localization_key = TPT_POP_88
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.888
-			authoritarian_democracy < 0.899
+			paternalism > 0.888
+			paternalism < 0.899
 		}
 		localization_key = TPT_POP_89
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.898
-			authoritarian_democracy < 0.909
+			paternalism > 0.898
+			paternalism < 0.909
 		}
 		localization_key = TPT_POP_90
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.908
-			authoritarian_democracy < 0.919
+			paternalism > 0.908
+			paternalism < 0.919
 		}
 		localization_key = TPT_POP_91
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.918
-			authoritarian_democracy < 0.929
+			paternalism > 0.918
+			paternalism < 0.929
 		}
 		localization_key = TPT_POP_92
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.928
-			authoritarian_democracy < 0.939
+			paternalism > 0.928
+			paternalism < 0.939
 		}
 		localization_key = TPT_POP_93
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.938
-			authoritarian_democracy < 0.949
+			paternalism > 0.938
+			paternalism < 0.949
 		}
 		localization_key = TPT_POP_94
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.948
-			authoritarian_democracy < 0.959
+			paternalism > 0.948
+			paternalism < 0.959
 		}
 		localization_key = TPT_POP_95
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.958
-			authoritarian_democracy < 0.969
+			paternalism > 0.958
+			paternalism < 0.969
 		}
 		localization_key = TPT_POP_96
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.968
-			authoritarian_democracy < 0.979
+			paternalism > 0.968
+			paternalism < 0.979
 		}
 		localization_key = TPT_POP_97
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.978
-			authoritarian_democracy < 0.989
+			paternalism > 0.978
+			paternalism < 0.989
 		}
 		localization_key = TPT_POP_88
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.988
-			authoritarian_democracy < 0.999
+			paternalism > 0.988
+			paternalism < 0.999
 		}
 		localization_key = TPT_POP_99
 	}
 	text = {
 		trigger = {
-			authoritarian_democracy > 0.998
+			paternalism > 0.998
 		}
 		localization_key = TPT_POP_100
 	}

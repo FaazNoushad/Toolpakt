@@ -671,10 +671,6 @@ spriteTypes = {
 		texturefile = "gfx/toolpack_interface/bst_interface/buildings/bst_refinery.dds"
 	}
 	SpriteType = { 
-		name = "GFX_bst_school"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings/bst_school.dds"
-	}
-	SpriteType = { 
 		name = "GFX_bst_70pc_civf"
 		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_civf.dds"
 	}
@@ -725,10 +721,6 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_bst_70pc_refinery"
 		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_refinery.dds"
-	}
-	SpriteType = { 
-		name = "GFX_bst_70pc_school"
-		texturefile = "gfx/toolpack_interface/bst_interface/buildings_70_pc/bst_school.dds"
 	}
 ###########
 ### MST ###

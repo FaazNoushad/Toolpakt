@@ -89,7 +89,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = conservative_democracy
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -109,7 +109,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT = { has_government = conservative_democracy }
+				NOT = { has_government = conservatism }
 			}
 
 			removal_cost = -1
@@ -129,7 +129,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = authoritarian_democracy
+				has_government = paternalism
 			}
 
 			removal_cost = -1
@@ -149,7 +149,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT = { has_government = authoritarian_democracy }
+				NOT = { has_government = paternalism }
 			}
 
 			removal_cost = -1

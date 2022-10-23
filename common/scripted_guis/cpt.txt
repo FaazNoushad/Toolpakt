@@ -949,7 +949,7 @@ scripted_gui = {
 					AND = {
 						OR = {
 							has_government = fascism
-							has_government = authoritarian_democracy
+							has_government = paternalism
 						}
 						original_tag = MAN
 					}
@@ -989,7 +989,7 @@ scripted_gui = {
 					AND = {
 						OR = {
 							has_government = fascism
-							has_government = authoritarian_democracy
+							has_government = paternalism
 						}
 						original_tag = MAN
 					}
@@ -1029,7 +1029,7 @@ scripted_gui = {
 					AND = {
 						OR = {
 							has_government = fascism
-							has_government = authoritarian_democracy
+							has_government = paternalism
 						}
 						original_tag = MAN
 					}
@@ -1069,7 +1069,7 @@ scripted_gui = {
 					AND = {
 						OR = {
 							has_government = fascism
-							has_government = authoritarian_democracy
+							has_government = paternalism
 						}
 						original_tag = MAN
 					}
@@ -1109,7 +1109,7 @@ scripted_gui = {
 					AND = {
 						OR = {
 							has_government = fascism
-							has_government = authoritarian_democracy
+							has_government = paternalism
 						}
 						original_tag = MAN
 					}
@@ -1149,7 +1149,7 @@ scripted_gui = {
 					AND = {
 						OR = {
 							has_government = fascism
-							has_government = authoritarian_democracy
+							has_government = paternalism
 						}
 						original_tag = MAN
 					}
@@ -1181,7 +1181,7 @@ scripted_gui = {
 				original_tag = JAP
 				OR = {
 					has_government = fascism
-					has_government = authoritarian_democracy
+					has_government = paternalism
 				}
 				MAN = {
 					has_country_flag = cpt_puppetee
@@ -1205,7 +1205,7 @@ scripted_gui = {
 				original_tag = JAP
 				OR = {
 					has_government = fascism
-					has_government = authoritarian_democracy
+					has_government = paternalism
 				}
 				MAN = {
 					has_country_flag = cpt_puppetee
@@ -1229,7 +1229,7 @@ scripted_gui = {
 				original_tag = JAP
 				OR = {
 					has_government = fascism
-					has_government = authoritarian_democracy
+					has_government = paternalism
 				}
 				MAN = {
 					has_country_flag = cpt_puppetee
@@ -1253,7 +1253,7 @@ scripted_gui = {
 				original_tag = JAP
 				OR = {
 					has_government = fascism
-					has_government = authoritarian_democracy
+					has_government = paternalism
 				}
 				MAN = {
 					has_country_flag = cpt_puppetee
@@ -1277,7 +1277,7 @@ scripted_gui = {
 				original_tag = JAP
 				OR = {
 					has_government = fascism
-					has_government = authoritarian_democracy
+					has_government = paternalism
 				}
 				MAN = {
 					has_country_flag = cpt_puppetee
@@ -1301,7 +1301,7 @@ scripted_gui = {
 				original_tag = JAP
 				OR = {
 					has_government = fascism
-					has_government = authoritarian_democracy
+					has_government = paternalism
 				}
 				MAN = {
 					has_country_flag = cpt_puppetee
@@ -1325,7 +1325,7 @@ scripted_gui = {
 				original_tag = JAP
 				OR = {
 					has_government = fascism
-					has_government = authoritarian_democracy
+					has_government = paternalism
 				}
 				MAN = {
 					has_country_flag = cpt_puppetee
@@ -1349,7 +1349,7 @@ scripted_gui = {
 				original_tag = JAP
 				OR = {
 					has_government = fascism
-					has_government = authoritarian_democracy
+					has_government = paternalism
 				}
 				MAN = {
 					has_country_flag = cpt_puppetee

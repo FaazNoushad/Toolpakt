@@ -109,16 +109,16 @@ scripted_gui = {
 					}
 				}
 				if = {
-					limit = {has_government = conservative_democracy}
+					limit = {has_government = conservatism}
 					every_country = {
-						limit = {has_government = conservative_democracy}
+						limit = {has_government = conservatism}
 						set_country_flag = tpt_actor
 					}
 				}
 				if = {
-					limit = {has_government = authoritarian_democracy}
+					limit = {has_government = paternalism}
 					every_country = {
-						limit = {has_government = authoritarian_democracy}
+						limit = {has_government = paternalism}
 						set_country_flag = tpt_actor
 					}
 				}
@@ -677,6 +677,12 @@ scripted_gui = {
 			tpt_libdem_off_click = {
 				clr_global_flag = tpt_libdem
 			}
+			tpt_libcon_on_click = {
+				set_global_flag = tpt_libcon
+			}
+			tpt_libcon_off_click = {
+				clr_global_flag = tpt_libcon
+			}
 			tpt_socialist_on_click = {
 				set_global_flag = tpt_socialist
 			}
@@ -795,19 +801,25 @@ scripted_gui = {
 						limit = {
 							has_global_flag = tpt_condem
 						}
-						set_politics = { ruling_party = conservative_democracy}
+						set_politics = { ruling_party = conservatism}
 					}
 					if = {
 						limit = {
 							has_global_flag = tpt_authdem
 						}
-						set_politics = { ruling_party = authoritarian_democracy}
+						set_politics = { ruling_party = paternalism}
 					}
 					if = {
 						limit = {
 							has_global_flag = tpt_libdem
 						}
-						set_politics = { ruling_party = liberal_democracy}
+						set_politics = { ruling_party = liberalism}
+					}
+					if = {
+						limit = {
+							has_global_flag = tpt_libcon
+						}
+						set_politics = { ruling_party = liberal_conservatism}
 					}
 					if = {
 						limit = {
@@ -819,7 +831,7 @@ scripted_gui = {
 						limit = {
 							has_global_flag = tpt_socdem
 						}
-						set_politics = { ruling_party = social_democracy}
+						set_politics = { ruling_party = progressivism}
 					}
 					if = {
 						limit = {
@@ -868,19 +880,25 @@ scripted_gui = {
 						limit = {
 							has_global_flag = tpt_condem
 						}
-						set_politics = { ruling_party = conservative_democracy}
+						set_politics = { ruling_party = conservatism}
 					}
 					if = {
 						limit = {
 							has_global_flag = tpt_authdem
 						}
-						set_politics = { ruling_party = authoritarian_democracy}
+						set_politics = { ruling_party = paternalism}
 					}
 					if = {
 						limit = {
 							has_global_flag = tpt_libdem
 						}
-						set_politics = { ruling_party = liberal_democracy}
+						set_politics = { ruling_party = liberalism}
+					}
+					if = {
+						limit = {
+							has_global_flag = tpt_libcon
+						}
+						set_politics = { ruling_party = liberalism_conservatism}
 					}
 					if = {
 						limit = {
@@ -892,7 +910,7 @@ scripted_gui = {
 						limit = {
 							has_global_flag = tpt_socdem
 						}
-						set_politics = { ruling_party = social_democracy}
+						set_politics = { ruling_party = progressivism}
 					}
 					if = {
 						limit = {
@@ -952,7 +970,7 @@ scripted_gui = {
 							has_global_flag = tpt_condem
 						}
 						add_popularity = {
-							ideology = conservative_democracy
+							ideology = conservatism
 							popularity = 0.05
 						}
 					}
@@ -961,7 +979,7 @@ scripted_gui = {
 							has_global_flag = tpt_authdem
 						}
 						add_popularity = {
-							ideology = authoritarian_democracy
+							ideology = paternalism
 							popularity = 0.05
 						}
 					}
@@ -970,7 +988,16 @@ scripted_gui = {
 							has_global_flag = tpt_libdem 
 						}
 						add_popularity = {
-							ideology = liberal_democracy
+							ideology = liberalism
+							popularity = 0.05
+						}				
+					}
+					if = { 
+						limit = { 
+							has_global_flag = tpt_libcon
+						}
+						add_popularity = {
+							ideology = liberal_conservatism
 							popularity = 0.05
 						}				
 					}
@@ -988,7 +1015,7 @@ scripted_gui = {
 							has_global_flag = tpt_socdem 
 						}
 						add_popularity = {
-							ideology = social_democracy
+							ideology = progressivism
 							popularity = 0.05
 						}
 					}
@@ -1058,7 +1085,7 @@ scripted_gui = {
 								has_global_flag = tpt_condem
 							}
 							add_popularity = {
-								ideology = conservative_democracy
+								ideology = conservatism
 								popularity = 0.05
 							}
 						}
@@ -1067,7 +1094,7 @@ scripted_gui = {
 								has_global_flag = tpt_authdem
 							}
 							add_popularity = {
-								ideology = authoritarian_democracy
+								ideology = paternalism
 								popularity = 0.05
 							}
 						}
@@ -1076,7 +1103,16 @@ scripted_gui = {
 								has_global_flag = tpt_libdem 
 							}
 							add_popularity = {
-								ideology = liberal_democracy
+								ideology = liberalism
+								popularity = 0.05
+							}				
+						}
+						if = { 
+							limit = { 
+								has_global_flag = tpt_libcon
+							}
+							add_popularity = {
+								ideology = liberal_conservatism
 								popularity = 0.05
 							}				
 						}
@@ -1094,7 +1130,7 @@ scripted_gui = {
 								has_global_flag = tpt_socdem 
 							}
 							add_popularity = {
-								ideology = social_democracy
+								ideology = progressivism
 								popularity = 0.05
 							}				
 						}
@@ -1168,7 +1204,7 @@ scripted_gui = {
 							has_global_flag = tpt_condem
 						}
 						add_popularity = {
-							ideology = conservative_democracy
+							ideology = conservatism
 							popularity = -0.05
 						}
 					}
@@ -1177,7 +1213,7 @@ scripted_gui = {
 							has_global_flag = tpt_authdem
 						}
 						add_popularity = {
-							ideology = authoritarian_democracy
+							ideology = paternalism
 							popularity = -0.05
 						}
 					}
@@ -1186,7 +1222,16 @@ scripted_gui = {
 							has_global_flag = tpt_libdem 
 						}
 						add_popularity = {
-							ideology = liberal_democracy
+							ideology = liberalism
+							popularity = -0.05
+						}				
+					}
+					if = { 
+						limit = { 
+							has_global_flag = tpt_libcon
+						}
+						add_popularity = {
+							ideology = liberal_conservatism
 							popularity = -0.05
 						}				
 					}
@@ -1204,7 +1249,7 @@ scripted_gui = {
 							has_global_flag = tpt_socdem 
 						}
 						add_popularity = {
-							ideology = social_democracy
+							ideology = progressivism
 							popularity = -0.05
 						}				
 					}
@@ -1274,7 +1319,7 @@ scripted_gui = {
 								has_global_flag = tpt_condem
 							}
 							add_popularity = {
-								ideology = conservative_democracy
+								ideology = conservatism
 								popularity = -0.05
 							}
 						}
@@ -1283,7 +1328,7 @@ scripted_gui = {
 								has_global_flag = tpt_authdem
 							}
 							add_popularity = {
-								ideology = authoritarian_democracy
+								ideology = paternalism
 								popularity = -0.05
 							}
 						}
@@ -1292,7 +1337,16 @@ scripted_gui = {
 								has_global_flag = tpt_libdem 
 							}
 							add_popularity = {
-								ideology = liberal_democracy
+								ideology = liberalism
+								popularity = -0.05
+							}				
+						}
+						if = { 
+							limit = { 
+								has_global_flag = tpt_libcon
+							}
+							add_popularity = {
+								ideology = liberal_conservatism
 								popularity = -0.05
 							}				
 						}
@@ -1310,7 +1364,7 @@ scripted_gui = {
 								has_global_flag = tpt_socdem 
 							}
 							add_popularity = {
-								ideology = social_democracy
+								ideology = progressivism
 								popularity = -0.05
 							}				
 						}
@@ -1384,7 +1438,7 @@ scripted_gui = {
 							has_global_flag = tpt_condem
 						}
 						add_popularity = {
-							ideology = conservative_democracy
+							ideology = conservatism
 							popularity = 0.10
 						}
 					}
@@ -1393,7 +1447,7 @@ scripted_gui = {
 							has_global_flag = tpt_authdem
 						}
 						add_popularity = {
-							ideology = authoritarian_democracy
+							ideology = paternalism
 							popularity = 0.10
 						}
 					}
@@ -1402,7 +1456,16 @@ scripted_gui = {
 							has_global_flag = tpt_libdem 
 						}
 						add_popularity = {
-							ideology = liberal_democracy
+							ideology = liberalism
+							popularity = 0.10
+						}				
+					}
+					if = { 
+						limit = { 
+							has_global_flag = tpt_libcon
+						}
+						add_popularity = {
+							ideology = liberal_conservatism
 							popularity = 0.10
 						}				
 					}
@@ -1420,7 +1483,7 @@ scripted_gui = {
 							has_global_flag = tpt_socdem 
 						}
 						add_popularity = {
-							ideology = social_democracy
+							ideology = progressivism
 							popularity = 0.10
 						}				
 					}
@@ -1490,7 +1553,7 @@ scripted_gui = {
 								has_global_flag = tpt_condem
 							}
 							add_popularity = {
-								ideology = conservative_democracy
+								ideology = conservatism
 								popularity = 0.10
 							}
 						}
@@ -1499,7 +1562,7 @@ scripted_gui = {
 								has_global_flag = tpt_authdem
 							}
 							add_popularity = {
-								ideology = authoritarian_democracy
+								ideology = paternalism
 								popularity = 0.10
 							}
 						}
@@ -1508,7 +1571,16 @@ scripted_gui = {
 								has_global_flag = tpt_libdem 
 							}
 							add_popularity = {
-								ideology = liberal_democracy
+								ideology = liberalism
+								popularity = 0.10
+							}				
+						}
+						if = { 
+							limit = { 
+								has_global_flag = tpt_libcon
+							}
+							add_popularity = {
+								ideology = liberal_conservatism
 								popularity = 0.10
 							}				
 						}
@@ -1591,7 +1663,7 @@ scripted_gui = {
 							has_global_flag = tpt_condem
 						}
 						add_popularity = {
-							ideology = conservative_democracy
+							ideology = conservatism
 							popularity = -0.10
 						}
 					}
@@ -1600,7 +1672,7 @@ scripted_gui = {
 							has_global_flag = tpt_authdem
 						}
 						add_popularity = {
-							ideology = authoritarian_democracy
+							ideology = paternalism
 							popularity = -0.10
 						}
 					}
@@ -1609,7 +1681,16 @@ scripted_gui = {
 							has_global_flag = tpt_libdem 
 						}
 						add_popularity = {
-							ideology = liberal_democracy
+							ideology = liberalism
+							popularity = -0.10
+						}				
+					}
+					if = { 
+						limit = { 
+							has_global_flag = tpt_libcon
+						}
+						add_popularity = {
+							ideology = liberal_conservatism
 							popularity = -0.10
 						}				
 					}
@@ -1627,7 +1708,7 @@ scripted_gui = {
 							has_global_flag = tpt_socdem 
 						}
 						add_popularity = {
-							ideology = social_democracy
+							ideology = progressivism
 							popularity = -0.10
 						}				
 					}
@@ -1697,7 +1778,7 @@ scripted_gui = {
 								has_global_flag = tpt_condem
 							}
 							add_popularity = {
-								ideology = conservative_democracy
+								ideology = conservatism
 								popularity = -0.10
 							}
 						}
@@ -1706,7 +1787,7 @@ scripted_gui = {
 								has_global_flag = tpt_authdem
 							}
 							add_popularity = {
-								ideology = authoritarian_democracy
+								ideology = paternalism
 								popularity = -0.10
 							}
 						}
@@ -1715,7 +1796,16 @@ scripted_gui = {
 								has_global_flag = tpt_libdem 
 							}
 							add_popularity = {
-								ideology = liberal_democracy
+								ideology = liberalism
+								popularity = -0.10
+							}				
+						}
+						if = { 
+							limit = { 
+								has_global_flag = tpt_libcon
+							}
+							add_popularity = {
+								ideology = liberal_conservatism
 								popularity = -0.10
 							}				
 						}
@@ -1733,7 +1823,7 @@ scripted_gui = {
 								has_global_flag = tpt_socdem 
 							}
 							add_popularity = {
-								ideology = social_democracy
+								ideology = progressivism
 								popularity = -0.10
 							}				
 						}
@@ -1807,7 +1897,7 @@ scripted_gui = {
 							has_global_flag = tpt_condem
 						}
 						add_popularity = {
-							ideology = conservative_democracy
+							ideology = conservatism
 							popularity = 0.50
 						}
 					}
@@ -1816,7 +1906,7 @@ scripted_gui = {
 							has_global_flag = tpt_authdem
 						}
 						add_popularity = {
-							ideology = authoritarian_democracy
+							ideology = paternalism
 							popularity = 0.50
 						}
 					}
@@ -1825,7 +1915,16 @@ scripted_gui = {
 							has_global_flag = tpt_libdem 
 						}
 						add_popularity = {
-							ideology = liberal_democracy
+							ideology = liberalism
+							popularity = 0.50
+						}				
+					}
+					if = { 
+						limit = { 
+							has_global_flag = tpt_libcon
+						}
+						add_popularity = {
+							ideology = liberal_conservatism
 							popularity = 0.50
 						}				
 					}
@@ -1843,7 +1942,7 @@ scripted_gui = {
 							has_global_flag = tpt_socdem 
 						}
 						add_popularity = {
-							ideology = social_democracy
+							ideology = progressivism
 							popularity = 0.50
 						}				
 					}
@@ -1913,7 +2012,7 @@ scripted_gui = {
 								has_global_flag = tpt_condem
 							}
 							add_popularity = {
-								ideology = conservative_democracy
+								ideology = conservatism
 								popularity = 0.50
 							}
 						}
@@ -1922,7 +2021,7 @@ scripted_gui = {
 								has_global_flag = tpt_authdem
 							}
 							add_popularity = {
-								ideology = authoritarian_democracy
+								ideology = paternalism
 								popularity = 0.50
 							}
 						}
@@ -1931,7 +2030,16 @@ scripted_gui = {
 								has_global_flag = tpt_libdem 
 							}
 							add_popularity = {
-								ideology = liberal_democracy
+								ideology = liberalism
+								popularity = 0.50
+							}				
+						}
+						if = { 
+							limit = { 
+								has_global_flag = tpt_libcon
+							}
+							add_popularity = {
+								ideology = liberal_conservatism
 								popularity = 0.50
 							}				
 						}
@@ -2014,7 +2122,7 @@ scripted_gui = {
 							has_global_flag = tpt_condem
 						}
 						add_popularity = {
-							ideology = conservative_democracy
+							ideology = conservatism
 							popularity = -0.50
 						}
 					}
@@ -2023,7 +2131,7 @@ scripted_gui = {
 							has_global_flag = tpt_authdem
 						}
 						add_popularity = {
-							ideology = authoritarian_democracy
+							ideology = paternalism
 							popularity = -0.50
 						}
 					}
@@ -2032,7 +2140,16 @@ scripted_gui = {
 							has_global_flag = tpt_libdem 
 						}
 						add_popularity = {
-							ideology = liberal_democracy
+							ideology = liberalism
+							popularity = -0.50
+						}				
+					}
+					if = { 
+						limit = { 
+							has_global_flag = tpt_libcon
+						}
+						add_popularity = {
+							ideology = liberal_conservatism
 							popularity = -0.50
 						}				
 					}
@@ -2050,7 +2167,7 @@ scripted_gui = {
 							has_global_flag = tpt_socdem 
 						}
 						add_popularity = {
-							ideology = social_democracy
+							ideology = progressivism
 							popularity = -0.50
 						}				
 					}
@@ -2120,7 +2237,7 @@ scripted_gui = {
 								has_global_flag = tpt_condem
 							}
 							add_popularity = {
-								ideology = conservative_democracy
+								ideology = conservatism
 								popularity = -0.50
 							}
 						}
@@ -2129,7 +2246,7 @@ scripted_gui = {
 								has_global_flag = tpt_authdem
 							}
 							add_popularity = {
-								ideology = authoritarian_democracy
+								ideology = paternalism
 								popularity = -0.50
 							}
 						}
@@ -2138,7 +2255,16 @@ scripted_gui = {
 								has_global_flag = tpt_libdem 
 							}
 							add_popularity = {
-								ideology = liberal_democracy
+								ideology = liberalism
+								popularity = -0.50
+							}				
+						}
+						if = { 
+							limit = { 
+								has_global_flag = tpt_libcon
+							}
+							add_popularity = {
+								ideology = liberal_conservatism
 								popularity = -0.50
 							}				
 						}
@@ -2156,7 +2282,7 @@ scripted_gui = {
 								has_global_flag = tpt_socdem 
 							}
 							add_popularity = {
-								ideology = social_democracy
+								ideology = progressivism
 								popularity = -0.50
 							}				
 						}
@@ -2524,11 +2650,11 @@ scripted_gui = {
 						}
 					}
 					if = {
-						limit = {has_government = conservative_democracy}
+						limit = {has_government = conservatism}
 						if = {
 							limit = {has_global_flag = tpt_cw_fascist}
 							start_civil_war = {
-								ruling_party = conservative_democracy
+								ruling_party = conservatism
 								ideology = fascism
 								size = 0.5
 							}
@@ -2536,7 +2662,7 @@ scripted_gui = {
 						if = {
 							limit = {has_global_flag = tpt_cw_communist}
 							start_civil_war = {
-								ruling_party = conservative_democracy
+								ruling_party = conservatism
 								ideology = communist
 								size = 0.5
 							}
@@ -2544,8 +2670,8 @@ scripted_gui = {
 						if = {
 							limit = {has_global_flag = tpt_cw_neutral}
 							start_civil_war = {
-								ruling_party = conservative_democracy
-								ideology = authoritarian_democracy
+								ruling_party = conservatism
+								ideology = paternalism
 								size = 0.5
 							}
 						}
@@ -2556,7 +2682,7 @@ scripted_gui = {
 							limit = {has_global_flag = tpt_cw_democratic}
 							start_civil_war = {
 								ruling_party = fascism
-								ideology = conservative_democracy
+								ideology = conservatism
 								size = 0.5
 							}
 						}
@@ -2572,7 +2698,7 @@ scripted_gui = {
 							limit = {has_global_flag = tpt_cw_neutral}
 							start_civil_war = {
 								ruling_party = fascism
-								ideology = authoritarian_democracy
+								ideology = paternalism
 								size = 0.5
 							}
 						}
@@ -2591,7 +2717,7 @@ scripted_gui = {
 							limit = {has_global_flag = tpt_cw_democratic}
 							start_civil_war = {
 								ruling_party = communist
-								ideology = conservative_democracy
+								ideology = conservatism
 								size = 0.5
 							}
 						}
@@ -2599,17 +2725,17 @@ scripted_gui = {
 							limit = {has_global_flag = tpt_cw_neutral}
 							start_civil_war = {
 								ruling_party = communist
-								ideology = authoritarian_democracy
+								ideology = paternalism
 								size = 0.5
 							}
 						}
 					}
 					if = {
-						limit = {has_government = authoritarian_democracy}
+						limit = {has_government = paternalism}
 						if = {
 							limit = {has_global_flag = tpt_cw_fascist}
 							start_civil_war = {
-								ruling_party = authoritarian_democracy
+								ruling_party = paternalism
 								ideology = fascism
 								size = 0.5
 							}
@@ -2617,7 +2743,7 @@ scripted_gui = {
 						if = {
 							limit = {has_global_flag = tpt_cw_communist}
 							start_civil_war = {
-								ruling_party = authoritarian_democracy
+								ruling_party = paternalism
 								ideology = communist
 								size = 0.5
 							}
@@ -2625,8 +2751,8 @@ scripted_gui = {
 						if = {
 							limit = {has_global_flag = tpt_cw_democratic}
 							start_civil_war = {
-								ruling_party = authoritarian_democracy
-								ideology = conservative_democracy
+								ruling_party = paternalism
+								ideology = conservatism
 								size = 0.5
 							}
 						}
@@ -2640,11 +2766,11 @@ scripted_gui = {
 						limit = {has_country_flag = tpt_actor}
 						
 						if = {
-							limit = {has_government = conservative_democracy}
+							limit = {has_government = conservatism}
 							if = {
 								limit = {has_global_flag = tpt_cw_fascist}
 								start_civil_war = {
-									ruling_party = conservative_democracy
+									ruling_party = conservatism
 									ideology = fascism
 									size = 0.5
 								}
@@ -2652,7 +2778,7 @@ scripted_gui = {
 							if = {
 								limit = {has_global_flag = tpt_cw_communist}
 								start_civil_war = {
-									ruling_party = conservative_democracy
+									ruling_party = conservatism
 									ideology = communist
 									size = 0.5
 								}
@@ -2660,8 +2786,8 @@ scripted_gui = {
 							if = {
 								limit = {has_global_flag = tpt_cw_neutral}
 								start_civil_war = {
-									ruling_party = conservative_democracy
-									ideology = authoritarian_democracy
+									ruling_party = conservatism
+									ideology = paternalism
 									size = 0.5
 								}
 							}
@@ -2672,7 +2798,7 @@ scripted_gui = {
 								limit = {has_global_flag = tpt_cw_democratic}
 								start_civil_war = {
 									ruling_party = fascism
-									ideology = conservative_democracy
+									ideology = conservatism
 									size = 0.5
 								}
 							}
@@ -2688,7 +2814,7 @@ scripted_gui = {
 								limit = {has_global_flag = tpt_cw_neutral}
 								start_civil_war = {
 									ruling_party = fascism
-									ideology = authoritarian_democracy
+									ideology = paternalism
 									size = 0.5
 								}
 							}
@@ -2707,7 +2833,7 @@ scripted_gui = {
 								limit = {has_global_flag = tpt_cw_democratic}
 								start_civil_war = {
 									ruling_party = communist
-									ideology = conservative_democracy
+									ideology = conservatism
 									size = 0.5
 								}
 							}
@@ -2715,17 +2841,17 @@ scripted_gui = {
 								limit = {has_global_flag = tpt_cw_neutral}
 								start_civil_war = {
 									ruling_party = communist
-									ideology = authoritarian_democracy
+									ideology = paternalism
 									size = 0.5
 								}
 							}
 						}
 						if = {
-							limit = {has_government = authoritarian_democracy}
+							limit = {has_government = paternalism}
 							if = {
 								limit = {has_global_flag = tpt_cw_fascist}
 								start_civil_war = {
-									ruling_party = authoritarian_democracy
+									ruling_party = paternalism
 									ideology = fascism
 									size = 0.5
 								}
@@ -2733,7 +2859,7 @@ scripted_gui = {
 							if = {
 								limit = {has_global_flag = tpt_cw_communist}
 								start_civil_war = {
-									ruling_party = authoritarian_democracy
+									ruling_party = paternalism
 									ideology = communist
 									size = 0.5
 								}
@@ -2741,8 +2867,8 @@ scripted_gui = {
 							if = {
 								limit = {has_global_flag = tpt_cw_democratic}
 								start_civil_war = {
-									ruling_party = authoritarian_democracy
-									ideology = conservative_democracy
+									ruling_party = paternalism
+									ideology = conservatism
 									size = 0.5
 								}
 							}
@@ -3215,7 +3341,7 @@ scripted_gui = {
 						limit = {
 							NOT = {has_global_flag = tpt_taken_nato}
 							NOT = {has_global_flag = tpt_stop_faction_names}
-							has_government = conservative_democracy
+							has_government = conservatism
 							tag = USA
 						}
 						create_faction = "NATO"
@@ -3314,7 +3440,7 @@ scripted_gui = {
 						limit = {
 							NOT = {has_global_flag = tpt_taken_liberation_pact}
 							NOT = {has_global_flag = tpt_stop_faction_names}
-							has_government = conservative_democracy
+							has_government = conservatism
 						}
 						create_faction = "Liberation Pact"
 						set_global_flag = tpt_taken_liberation_pact
@@ -3324,7 +3450,7 @@ scripted_gui = {
 						limit = {
 							NOT = {has_global_flag = tpt_taken_home_of_the_free}
 							NOT = {has_global_flag = tpt_stop_faction_names}
-							has_government = conservative_democracy
+							has_government = conservatism
 						}
 						create_faction = "Home of the Free"
 						set_global_flag = tpt_taken_home_of_the_free
@@ -3354,7 +3480,7 @@ scripted_gui = {
 						limit = {
 							NOT = {has_global_flag = tpt_taken_peacekeepers}
 							NOT = {has_global_flag = tpt_stop_faction_names}
-							has_government = conservative_democracy
+							has_government = conservatism
 						}
 						create_faction = "Peacekeepers"
 						set_global_flag = tpt_taken_peacekeepers
@@ -3364,7 +3490,7 @@ scripted_gui = {
 						limit = {
 							NOT = {has_global_flag = tpt_taken_global_defensive_alliance}
 							NOT = {has_global_flag = tpt_stop_faction_names}
-							has_government = conservative_democracy
+							has_government = conservatism
 						}
 						create_faction = "Global Defensive Alliance"
 						set_global_flag = tpt_taken_global_defensive_alliance
@@ -3374,7 +3500,7 @@ scripted_gui = {
 						limit = {
 							NOT = {has_global_flag = tpt_taken_central_states}
 							NOT = {has_global_flag = tpt_stop_faction_names}
-							has_government = authoritarian_democracy
+							has_government = paternalism
 						}
 						create_faction = "Central States"
 						set_global_flag = tpt_taken_central_states
@@ -3384,7 +3510,7 @@ scripted_gui = {
 						limit = {
 							NOT = {has_global_flag = tpt_taken_iron_guard}
 							NOT = {has_global_flag = tpt_stop_faction_names}
-							has_government = authoritarian_democracy
+							has_government = paternalism
 						}
 						create_faction = "Iron Guard"
 						set_global_flag = tpt_taken_iron_guard
@@ -3799,6 +3925,14 @@ scripted_gui = {
 				has_global_flag = tpt_window_a
 				has_global_flag = tpt_libdem
 			}
+			tpt_libcon_on_visible = {
+				has_global_flag = tpt_window_a
+				NOT = {has_global_flag = tpt_libcon}
+			}
+			tpt_libcon_off_visible = {
+				has_global_flag = tpt_window_a
+				has_global_flag = tpt_libcon
+			}
 			tpt_socialist_on_visible = {
 				has_global_flag = tpt_window_a
 				NOT = {has_global_flag = tpt_socialist}
@@ -3878,6 +4012,7 @@ scripted_gui = {
 					has_global_flag = tpt_condem
 					has_global_flag = tpt_authdem
 					has_global_flag = tpt_libdem
+					has_global_flag = tpt_libcon
 					has_global_flag = tpt_socialist
 					has_global_flag = tpt_socdem
 					has_global_flag = tpt_cenrep
@@ -3897,6 +4032,7 @@ scripted_gui = {
 					has_global_flag = tpt_condem
 					has_global_flag = tpt_authdem
 					has_global_flag = tpt_libdem
+					has_global_flag = tpt_libcon
 					has_global_flag = tpt_socialist
 					has_global_flag = tpt_socdem
 					has_global_flag = tpt_cenrep
@@ -3916,6 +4052,7 @@ scripted_gui = {
 					has_global_flag = tpt_condem
 					has_global_flag = tpt_authdem
 					has_global_flag = tpt_libdem
+					has_global_flag = tpt_libcon
 					has_global_flag = tpt_socialist
 					has_global_flag = tpt_socdem
 					has_global_flag = tpt_cenrep
@@ -3935,6 +4072,7 @@ scripted_gui = {
 					has_global_flag = tpt_condem
 					has_global_flag = tpt_authdem
 					has_global_flag = tpt_libdem
+					has_global_flag = tpt_libcon
 					has_global_flag = tpt_socialist
 					has_global_flag = tpt_socdem
 					has_global_flag = tpt_cenrep
@@ -3954,6 +4092,7 @@ scripted_gui = {
 					has_global_flag = tpt_condem
 					has_global_flag = tpt_authdem
 					has_global_flag = tpt_libdem
+					has_global_flag = tpt_libcon
 					has_global_flag = tpt_socialist
 					has_global_flag = tpt_socdem
 					has_global_flag = tpt_cenrep
@@ -3973,6 +4112,7 @@ scripted_gui = {
 					has_global_flag = tpt_condem
 					has_global_flag = tpt_authdem
 					has_global_flag = tpt_libdem
+					has_global_flag = tpt_libcon
 					has_global_flag = tpt_socialist
 					has_global_flag = tpt_socdem
 					has_global_flag = tpt_cenrep
@@ -3993,6 +4133,7 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_condem}
 						NOT = {has_global_flag = tpt_authdem}
 						NOT = {has_global_flag = tpt_libdem}
+						NOT = {has_global_flag = tpt_libcon}
 						NOT = {has_global_flag = tpt_socialist}
 						NOT = {has_global_flag = tpt_socdem}
 						NOT = {has_global_flag = tpt_cenrep}
@@ -4007,6 +4148,7 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_condem}
 						NOT = {has_global_flag = tpt_authdem}
 						NOT = {has_global_flag = tpt_libdem}
+						NOT = {has_global_flag = tpt_libcon}
 						NOT = {has_global_flag = tpt_socialist}
 						NOT = {has_global_flag = tpt_socdem}
 						NOT = {has_global_flag = tpt_cenrep}
@@ -4021,6 +4163,7 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_communist}
 						NOT = {has_global_flag = tpt_authdem}
 						NOT = {has_global_flag = tpt_libdem}
+						NOT = {has_global_flag = tpt_libcon}
 						NOT = {has_global_flag = tpt_socialist}
 						NOT = {has_global_flag = tpt_socdem}
 						NOT = {has_global_flag = tpt_cenrep}
@@ -4035,6 +4178,7 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_communist}
 						NOT = {has_global_flag = tpt_condem}
 						NOT = {has_global_flag = tpt_libdem}
+						NOT = {has_global_flag = tpt_libcon}
 						NOT = {has_global_flag = tpt_socialist}
 						NOT = {has_global_flag = tpt_socdem}
 						NOT = {has_global_flag = tpt_cenrep}
@@ -4048,6 +4192,22 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_fascism}
 						NOT = {has_global_flag = tpt_communist}
 						NOT = {has_global_flag = tpt_condem}
+						NOT = {has_global_flag = tpt_libcon}
+						NOT = {has_global_flag = tpt_authdem}
+						NOT = {has_global_flag = tpt_socialist}
+						NOT = {has_global_flag = tpt_socdem}
+						NOT = {has_global_flag = tpt_cenrep}
+						NOT = {has_global_flag = tpt_despot}
+						NOT = {has_global_flag = tpt_ultranat}
+						NOT = {has_global_flag = tpt_natsoc}
+						NOT = {has_global_flag = tpt_esonat}
+					}
+					AND = {
+						has_global_flag = tpt_libcon
+						NOT = {has_global_flag = tpt_fascism}
+						NOT = {has_global_flag = tpt_communist}
+						NOT = {has_global_flag = tpt_condem}
+						NOT = {has_global_flag = tpt_libdem}
 						NOT = {has_global_flag = tpt_authdem}
 						NOT = {has_global_flag = tpt_socialist}
 						NOT = {has_global_flag = tpt_socdem}
@@ -4064,6 +4224,7 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_condem}
 						NOT = {has_global_flag = tpt_authdem}
 						NOT = {has_global_flag = tpt_libdem}
+						NOT = {has_global_flag = tpt_libcon}
 						NOT = {has_global_flag = tpt_socdem}
 						NOT = {has_global_flag = tpt_cenrep}
 						NOT = {has_global_flag = tpt_despot}
@@ -4078,6 +4239,7 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_condem}
 						NOT = {has_global_flag = tpt_authdem}
 						NOT = {has_global_flag = tpt_libdem}
+						NOT = {has_global_flag = tpt_libcon}
 						NOT = {has_global_flag = tpt_socialist}
 						NOT = {has_global_flag = tpt_cenrep}
 						NOT = {has_global_flag = tpt_despot}
@@ -4092,6 +4254,7 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_condem}
 						NOT = {has_global_flag = tpt_authdem}
 						NOT = {has_global_flag = tpt_libdem}
+						NOT = {has_global_flag = tpt_libcon}
 						NOT = {has_global_flag = tpt_socialist}
 						NOT = {has_global_flag = tpt_socdem}
 						NOT = {has_global_flag = tpt_despot}
@@ -4106,6 +4269,7 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_condem}
 						NOT = {has_global_flag = tpt_authdem}
 						NOT = {has_global_flag = tpt_libdem}
+						NOT = {has_global_flag = tpt_libcon}
 						NOT = {has_global_flag = tpt_socialist}
 						NOT = {has_global_flag = tpt_socdem}
 						NOT = {has_global_flag = tpt_cenrep}
@@ -4120,6 +4284,7 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_condem}
 						NOT = {has_global_flag = tpt_authdem}
 						NOT = {has_global_flag = tpt_libdem}
+						NOT = {has_global_flag = tpt_libcon}
 						NOT = {has_global_flag = tpt_socialist}
 						NOT = {has_global_flag = tpt_socdem}
 						NOT = {has_global_flag = tpt_cenrep}
@@ -4134,6 +4299,7 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_condem}
 						NOT = {has_global_flag = tpt_authdem}
 						NOT = {has_global_flag = tpt_libdem}
+						NOT = {has_global_flag = tpt_libcon}
 						NOT = {has_global_flag = tpt_socialist}
 						NOT = {has_global_flag = tpt_socdem}
 						NOT = {has_global_flag = tpt_cenrep}
@@ -4148,6 +4314,7 @@ scripted_gui = {
 						NOT = {has_global_flag = tpt_condem}
 						NOT = {has_global_flag = tpt_authdem}
 						NOT = {has_global_flag = tpt_libdem}
+						NOT = {has_global_flag = tpt_libcon}
 						NOT = {has_global_flag = tpt_socialist}
 						NOT = {has_global_flag = tpt_socdem}
 						NOT = {has_global_flag = tpt_cenrep}
@@ -4173,6 +4340,9 @@ scripted_gui = {
 				has_global_flag = tpt_window_a
 			}
 			tpt_libdem_text_visible = {
+				has_global_flag = tpt_window_a
+			}
+			tpt_libcon_text_visible = {
 				has_global_flag = tpt_window_a
 			}
 			tpt_cenrep_text_visible = {
